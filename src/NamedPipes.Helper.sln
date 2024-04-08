@@ -11,6 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NamedPipesExample", "..\Exa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleInstanceWinForms", "..\Examples\SingleInstanceWinForms\SingleInstanceWinForms.csproj", "{0656EBF2-A310-4039-B592-67FB1B66541B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "..\build\_build.csproj", "{5569770E-E6F8-43BD-86D4-894B2B29280D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA06A822-6675-4C38-9BF7-719290D16784}"
+	ProjectSection(SolutionItems) = preProject
+		CHANGELOG.md = CHANGELOG.md
+		GitVersion.yml = GitVersion.yml
+		Jenkinsfile = Jenkinsfile
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +38,8 @@ Global
 		{0656EBF2-A310-4039-B592-67FB1B66541B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0656EBF2-A310-4039-B592-67FB1B66541B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0656EBF2-A310-4039-B592-67FB1B66541B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5569770E-E6F8-43BD-86D4-894B2B29280D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5569770E-E6F8-43BD-86D4-894B2B29280D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
